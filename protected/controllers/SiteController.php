@@ -108,6 +108,7 @@ class SiteController extends Controller
                     'id'=>$twitt['id_str'],
                     'created_at'=>date('Y-m-d H:i:s',strtotime($twitt['created_at'])),
                     'text'=>$twitt['text'],
+                    'search_text'=>mb_strtolower($twitt['text'],'utf-8'),
                     'user_id'=>isset($twitt['user']['id']) ? $twitt['user']['id']:null,
                     'retweet_count'=>$twitt['retweet_count'],
                     'favorite_count'=>$twitt['favorite_count'],
@@ -115,7 +116,7 @@ class SiteController extends Controller
                 $model->save(false);
 
 
-                $matches = preg_split($pattern, mb_strtolower($twitt['text'],'utf-8'),NULL,PREG_SPLIT_NO_EMPTY);
+                $matches = preg_split($pattern,$model->search_text ,NULL,PREG_SPLIT_NO_EMPTY);
                 if(!empty($matches))
                     foreach($matches as $value){
                         $db->createCommand("INSERT INTO {{word}}(`word`,`count_used`) VALUES(:val,1)

@@ -7,6 +7,7 @@
  * @property string $id
  * @property string $created_at
  * @property string $text
+ * @property string $search_text
  * @property string $user_id
  * @property string $retweet_count
  * @property string $favorite_count
@@ -41,7 +42,7 @@ class Twitt extends CActiveRecord
 		return array(
 			array('id, user_id', 'required'),
 			array('id, user_id', 'length', 'max'=>20),
-			array('text', 'length', 'max'=>256),
+			array('text,search_text', 'length', 'max'=>256),
 			array('retweet_count, favorite_count', 'length', 'max'=>10),
 			array('created_at', 'safe'),
 			// The following rule is used by search().
