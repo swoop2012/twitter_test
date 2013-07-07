@@ -1,0 +1,189 @@
+html {
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-position: top center;
+}
+body {
+  background: transparent;
+}
+/* Set floating dom-heading margins to 0 */
+[class*="dom-heading"] {
+  margin: 0;
+}
+body .pull-center{
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .container .row-fluid .span12 .navbar ,
+.container .row-fluid .span12 .navbar{
+  margin: 10px 0px 10px 0px;
+}
+.container .container .row-fluid .span12 .navbar .navbar-inner,
+.container .row-fluid .span12 .navbar .navbar-inner{
+  padding: 0px;
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.098);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.098);
+  -o-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.098);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.098);
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.container .container .row-fluid .span12 .navbar .navbar-inner .nav li a,
+.container .row-fluid .span12 .navbar .navbar-inner .nav li a{
+  color: #333333;
+}
+
+.container .container .row-fluid .span12 .navbar .navbar-inner .nav li a .icon.icon-signout,
+.container .row-fluid .span12 .navbar .navbar-inner .nav li a .icon.icon-signout {
+  text-shadow: none;
+  color: #b3b3b3;
+}
+.container .well .row-fluid .span4 .well .dom-heading {
+  font-family:"Arial";
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.container .container .row-fluid .span12 .navbar .navbar-inner .nav li a .badge-warning {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.247);
+}
+
+.container .well .btn.btn-1 {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .well .container-fluid .row-fluid .span4 .heading,
+.container .well .container-fluid .row-fluid .span4 .heading{
+  font-size: 29px;
+  line-height: 30px;
+}
+.container .well .form-horizontal .control-group .controls .span7 {
+    height: 90px;
+}
+input.span7, textarea.span7, .uneditable-input.span7 {
+    width: 656px;
+}
+.container .well .dom-link{
+  font-size: 10px;
+  line-height: 16px;
+}
+.container .well .form-horizontal .well .control-group .controls .span8.span8-1 {
+  height: 145px;
+}
+.container .well .well .container-fluid  .form-horizontal .row-fluid .span12  .well .control-group .controls .span10.span10-1 {
+  height: 155px;
+}
+
+.container .well .well input.textinput.textinput-1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.container .well .well input.textinput.textinput-2 {
+  height: 30px;
+}
+.container .well .well input.textinput.textinput-3 {
+  line-height: 17px;
+}
+.container .well .well input.textinput.textinput-4 {
+  margin: 0px;
+}
+.container .well .well input.textinput.textinput-5 {
+  margin: 0px 0px 2px 0px;
+}
+.container .well .well .control-group {
+  margin: 10px 0px 0px 0px;
+}
+.container .well .well .table tbody tr td .btn-danger {
+  margin: 0px 0px 2px 5px;
+}
+.container .well .form-inline input.textinput.textinput-6 {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .form-inline .btn.btn-1 {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .form-horizontal .well  .control-group .controls select {
+  margin: 0px 0px 5px 0px;
+  width: 200px;
+}
+
+.container .well .well .btn-primary.btn-primary-1 {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .well .span9 {
+  height: 80px;
+}
+.container .well .well .span9.span9-1 {
+  outline: medium none;
+}
+.container .well .form-inline input.textinput {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .form-inline .btn {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .form-inline input.textinput.textinput-3 {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .form-inline .btn-primary.btn-primary-2 {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .form-inline .control-group .controls .input-xxlarge,.container .well .form-horizontal .control-group .controls .input-xxlarge {
+  height: 130px;
+}
+
+.container .row-fluid .span6 .well .dom-link,.container .well .dom-link.dom-link-1 {
+  font-size: 10px;
+  line-height: 16px;
+}
+.container .row-fluid .span6 .well .dom-heading,.container .well .row-fluid .span6 .dom-heading{
+  font-family:"Arial";
+  font-size: 20px;
+  line-height: 31px;
+  margin: 0px;
+}
+.container .row-fluid .span6 .well .nav-list {
+  margin: 0px 0px 10px 0px;
+}
+.container .row-fluid .span6 .well form select {
+  margin: 0px 0px 5px 0px;
+  width: 200px;
+}
+.container .row-fluid .span6 .well form input.textinput {
+  margin: 0px 0px 5px 0px;
+}
+.container .row-fluid .span6 .well form .btn {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .row-fluid .span6 .form-inline select {
+  margin: 0px 0px 5px 0px;
+  width: 100px;
+}
+.container .well .row-fluid .span6 .form-inline .btn {
+  margin: 0px 0px 5px 0px;
+}
+.container .well .row-fluid .span6 .form-inline #promocodes{
+  margin: 0px 0px 5px 0px;
+  width: 330px;
+}
+.container .well .row-fluid .span6 .row-fluid .span12 .well .heading {
+  font-size: 19px;
+  line-height: 20px;
+  text-align: center;
+}
+.container .well .row-fluid .span6 .form-inline {
+  margin: 10px 0px 20px 0px;
+}
+form .row {
+    margin-left: 0;
+}
+.navbar .link1.brand {
+    color: #777777;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: -20px;
+    padding-top: 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
