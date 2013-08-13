@@ -10,7 +10,7 @@ class TwittController extends Controller
 		$dataProvider=new CActiveDataProvider('Twitt',array('criteria'=>$criteria));
 		$this->render('search',array(
 			'dataProvider'=>$dataProvider,
-            'q'=>$q
+        		'q'=>$q
 		));
 	}
 
